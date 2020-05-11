@@ -1,0 +1,97 @@
+/* Reset CSS (DO NOT DELETE) */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Avenir Next";
+}
+
+li {
+  list-style: none;
+}
+
+/* Write your code below */
+.header{
+  background-color:#26d0c9;
+  height:90px;
+  color :#fff;
+}
+.header-logo{
+  float:left;
+  font-size:36px;
+  padding:20px 40px;
+}
+.header-list li{
+  list-style: none;
+  float:left;
+  padding:33px 20px;
+}
+.copy-container h1{
+  font-size:140px;
+}
+.copy-container h2{
+  font-size:60px;
+}
+span{
+  color:#ff4a4a;
+}
+.main{
+  padding:100px 80px;
+}
+.content-title{
+  border-bottom:2px solid #dee7ec;
+  padding-bottom:15px;
+  margin-bottom:50px;
+  font-size:28px;
+}
+.content-items{
+  float:left;
+  margin-right:40px;
+}
+.contents{
+  margin-top:100px;
+  height:500px;
+}
+.content-items p{
+  font-size:24px;
+  margin-top:30px;
+}
+.contact-area{
+  padding-left:80px;
+  padding-right:80px;
+  padding-bottom:100px;
+}
+input,textarea{
+  border:1px solid #dec7ec;
+  width:400px;
+  margin-bottom:30px;
+  margin-top:10px;
+  font-size:18px;
+  padding:20px;
+ }
+ .contact-submit{
+   color:#889eab;
+   background-color:#dee7ec;
+ }
+ .footer{
+   color:#fff;
+   background-color:#2f5167;
+   height:120px;
+   padding:40px;
+ }
+ .footer-logo{
+   font:32px;
+   float:left;
+   padding:20px 40px;
+ }
+ .footer-list {
+   padding:20px;
+   float:right;
+ }
+
+ 
